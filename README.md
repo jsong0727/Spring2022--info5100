@@ -1,3 +1,3 @@
 ## Spring 2022 INFO 5100
 
-adding more text
+this is my first repo
