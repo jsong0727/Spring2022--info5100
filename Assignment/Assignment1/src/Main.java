@@ -3,7 +3,6 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("---------------------------------------");
         String str = "abcdefg";
         String str1 = "bcdefga";
@@ -24,8 +23,6 @@ public class Main {
         System.out.println(book1.getBookID());
         System.out.println("---------------------------------------");
         System.out.println(canConstruct("abcd", "zadfeabcd"));
-
-
     }
     //Question 1: Write a program find if String is Palindrome?
 
