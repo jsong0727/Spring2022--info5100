@@ -118,7 +118,7 @@ public class Main {
 
     //Question 7: Given two strings ransomNote and magazine, return true if ransomNote can be constructed from magazine and false otherwise.
     //Each letter in magazine can only be used once in ransomNote.
-    //TO DO
+    //?? not quite sure
     public static boolean canConstruct(String ransomNote, String magazine) {
         int[] arr = new int[26];
         for (int i = 0; i < magazine.length(); i++) {
