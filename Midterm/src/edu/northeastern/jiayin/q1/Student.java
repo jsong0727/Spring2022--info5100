@@ -11,11 +11,19 @@ public class Student {
         gpa = 0.0;
     }
 
+    //copy constructor
     public Student(Student student) {
         Student sdt = new Student();
         this.name = student.name;
         this.studentID = student.studentID;
         this.gpa = student.gpa;
+    }
+
+    //
+    public Student(String name, int studentID, double gpa) {
+        this.name = name;
+        this.studentID = studentID;
+        this.gpa = gpa;
     }
 
     public String getName() {
