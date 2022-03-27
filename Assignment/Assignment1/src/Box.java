@@ -12,5 +12,5 @@ public class Box {
     public double getVolume() {
         return width * height * depth;
     }
-    
+
 }
